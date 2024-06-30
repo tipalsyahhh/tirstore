@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: acme, sans-serif;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.link {
+    font-weight: bold;
+    margin-left: 5px;
+    color: #000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.keranjang,
+.user {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #22746d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.isi {
+    width: 70%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.search-box {
+    flex: 1;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.search-box:focus {
+    border: none;
+    outline: none;
+}
+
+.jualan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.jualan a {
+    text-decoration: none;
+}
+
+.card-1 {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    margin-bottom: 10px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #9e9e9e;
+}
+
+.img-jualan {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.harga p {
+    text-decoration: none;
+    color: #000;
+}
+
+.detail {
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 30%;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid #9e9e9e;
+}
+
+.img-detail {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.deskripsi {
+    padding: 10px;
+    margin-top: -20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.deskripsi p {
+    text-align: justify;
+}
+
+.des {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    background-color: #22746d;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .isi {
+        width: 100%;
+    }
+
+    .detail {
+        display: none;
+    }
+
+    .jualan {
+        display: block;
+    }
+
+    .card-1 {
+        height: 500px;
+    }
+}

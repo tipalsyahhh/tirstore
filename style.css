@@ -52,6 +52,7 @@ body {
     background-color: #22746d;
     color: #fff;
     animation: fadeIn 4s ease-in-out;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
