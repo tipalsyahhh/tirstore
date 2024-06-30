@@ -62,5 +62,6 @@ body {
 
     .home-image {
         width: 100%;
+        height: calc(100vh * 0.67);
     }
 }
