@@ -64,4 +64,8 @@ body {
         width: 100%;
         height: calc(100vh * 0.67);
     }
+
+    .content h3 {
+        margin-top: -12px;
+    }
 }
