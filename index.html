@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.2/build/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>tirstore</title>
+</head>
+
+<body>
+    <div class="content">
+        <img src="img/no-keranjang.png" alt="img" class="home-image">
+        <h3>Welcome To Tirstore</h3>
+        <p>Temukan produk-produk kesukaanmu dengan berbagai pilihan menarik dan berkualitas.</p>
+    </div>
+    <button class="next"><i class="bi bi-arrow-right"></i></button>
+    <script>
+        VANTA.BIRDS({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0xffffff,
+            color1: 0x8a5af,
+            color2: 0x47b9f7,
+            birdSize: 1.20,
+            wingSpan: 18.00,
+            speedLimit: 8.00,
+            separation: 27.00,
+            alignment: 17.00,
+            cohesion: 26.00,
+            quantity: 3.00
+        })
+    </script>
+</body>
+
+</html>
